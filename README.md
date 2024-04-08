@@ -1,18 +1,18 @@
-# MyCrypto Web App
+# OmaxDex Web App
 
-[![Build](https://github.com/MyCryptoHQ/MyCrypto/workflows/GitHub%20CI/badge.svg?branch=master)](https://github.com/MyCryptoHQ/MyCrypto/actions)
-[![codecov](https://codecov.io/gh/MyCryptoHQ/MyCrypto/branch/master/graph/badge.svg)](https://codecov.io/gh/MyCryptoHQ/MyCrypto)
+[![Build](https://github.com/OmaxDexHQ/OmaxDex/workflows/GitHub%20CI/badge.svg?branch=master)](https://github.com/OmaxDexHQ/OmaxDex/actions)
+[![codecov](https://codecov.io/gh/OmaxDexHQ/OmaxDex/branch/master/graph/badge.svg)](https://codecov.io/gh/OmaxDexHQ/OmaxDex)
 
-This repo stores the MyCrypto codebase. The code is served at [app.mycrypto.com](https://app.mycrypto.com)
+This repo stores the OmaxDex codebase. The code is served at [app.OmaxDex.com](https://app.OmaxDex.com)
 
-#### Documentation can be found in [our wiki](https://github.com/MyCryptoHQ/MyCrypto/wiki)
+#### Documentation can be found in [our wiki](https://github.com/OmaxDexHQ/OmaxDex/wiki)
 
-- [Contributor Guidelines](https://github.com/MyCryptoHQ/MyCrypto/wiki/Contributor-Guidelines) A must-read if you'd like to contribute to MyCrypto
-- [Getting your token added to MyCrypto](https://github.com/MyCryptoHQ/MyCrypto/wiki/Contributing-%E2%80%90-Adding-Tokens)
-- [Adding your Network or Node](https://github.com/MyCryptoHQ/MyCrypto/wiki/Contributing-%E2%80%90-Network-or-Node)
-- [Adding your Web3 Wallet & Logo](https://github.com/MyCryptoHQ/MyCrypto/wiki/Contributing-%E2%80%90-Web3-Wallet)
-- [MyCryptoBuilds](https://github.com/MyCryptoHQ/MyCrypto/wiki/MyCryptoBuilds) - access a build by commithash, PR number, or branch name without building it yourself!
-- [Enabling or disabling experimental features](https://github.com/MyCryptoHQ/MyCrypto/wiki/Feature-flags)
+- [Contributor Guidelines](https://github.com/OmaxDexHQ/OmaxDex/wiki/Contributor-Guidelines) A must-read if you'd like to contribute to OmaxDex
+- [Getting your token added to OmaxDex](https://github.com/OmaxDexHQ/OmaxDex/wiki/Contributing-%E2%80%90-Adding-Tokens)
+- [Adding your Network or Node](https://github.com/OmaxDexHQ/OmaxDex/wiki/Contributing-%E2%80%90-Network-or-Node)
+- [Adding your Web3 Wallet & Logo](https://github.com/OmaxDexHQ/OmaxDex/wiki/Contributing-%E2%80%90-Web3-Wallet)
+- [OmaxDexBuilds](https://github.com/OmaxDexHQ/OmaxDex/wiki/OmaxDexBuilds) - access a build by commithash, PR number, or branch name without building it yourself!
+- [Enabling or disabling experimental features](https://github.com/OmaxDexHQ/OmaxDex/wiki/Feature-flags)
 
 ## Development / Build Requirements
 
@@ -23,7 +23,7 @@ On systems where a pre-built version of node-hid is not available (e.g. 32-bit v
 
 <sub>\*Higher versions should work fine, but may cause inconsistencies.</sub>
 <br />
-<sub>\*\*npm is NOT supported for package management. MyCrypto uses yarn.lock to ensure sub-dependency versions are pinned, so yarn is required to install node_modules</sub>
+<sub>\*\*npm is NOT supported for package management. OmaxDex uses yarn.lock to ensure sub-dependency versions are pinned, so yarn is required to install node_modules</sub>
 <br />
 <br />
 <sub>\*\*\*For users trying to build with WSL, you'll need to have install libpng via `sudo apt-get install libpng16-dev`.</sub>
@@ -99,7 +99,7 @@ We use product analytics to help us understand how to improve our features.
 
 The collection of usage data requires the use of unique identifiers which are stored in the browsers local storage. The id is random and can be removed or reset in the Settings panel. This ensures that our product team can identify places to improve the product, while at the same time protecting the users anonymity.
 
-We strive to provide access to the Ethereum blockchain in the most secure way possible, we refuse any dynamic script injections and only rely on HTTPS calls to the API. The calls are formatted using the excellant [@blockstock/stats](https://github.com/MyCryptoHQ/stats) library.
+We strive to provide access to the Ethereum blockchain in the most secure way possible, we refuse any dynamic script injections and only rely on HTTPS calls to the API. The calls are formatted using the excellant [@blockstock/stats](https://github.com/OmaxDexHQ/stats) library.
 
 Finally, since User privacy is part of our core values, we also take special care to ensure that the data we send to thrid-party servers is purged from any information which may be de-anonymised such as:
 
